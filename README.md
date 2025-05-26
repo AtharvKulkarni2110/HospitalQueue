@@ -28,6 +28,8 @@ The project utilizes Linked Lists to store the queue dynamically
 
 
 **Data Structures Used**
+
+
    Linked List: Used to implement the queue
 
    Struct: Used for each Patient node
