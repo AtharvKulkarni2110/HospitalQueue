@@ -7,20 +7,27 @@ It is Project helpful for clinics and Hospitals to track patients record
 
   - Add patients to the queue
 
-  - Serve patients (FIFO order)
+  - Serve patients using priority queue order
 
   - Show the list of waiting patients
 
-The project utilizes Linked Lists to store the queue dynamically
+  - Search and delete Patient by their name from the queue
+
+
+The project utilizes priority queue to store the queue dynamically and serve patients on the basis of priority of seriousness of problem.
 
 
 
 **Features**
- - Add new patients with name, age, and problem
+ - Add new patients with name, age, problem and priority
 
- - Serve patients one by one (First In, First Out)
+ - Serve patients one by one (on the basis of priority)
 
  - Display all current patients in the queue
+
+ - Search Patient by their name
+
+ - Delete Patient by their name from queue
   
  - Runs until you choose to exit
 
@@ -30,10 +37,11 @@ The project utilizes Linked Lists to store the queue dynamically
 **Data Structures Used**
 
 
-   Linked List: Used to implement the queue
+   priority_queue: Used to implement the queue on the basis of problem priority
+
+   unordered_map: Used to track the priority of common problems
 
    Struct: Used for each Patient node
 
-   Class: Used to wrap queue operations in HospitalQueue
 
  
