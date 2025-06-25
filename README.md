@@ -3,6 +3,12 @@
 It is Project helpful for clinics and Hospitals to track patients record
 
 
+
+![Screenshot 2025-06-25 141353](https://github.com/user-attachments/assets/3b159eee-a498-4496-9510-4ad063daf33c)
+
+
+
+
 -This is a basic C++ console application that simulates a hospital queue. You can:
 
   - Add patients to the queue
@@ -42,6 +48,8 @@ The project utilizes priority queue to store the queue dynamically and serve pat
    unordered_map: Used to track the priority of common problems
 
    Struct: Used for each Patient node
+
+Qt creator:For GUI creation
 
 
  
